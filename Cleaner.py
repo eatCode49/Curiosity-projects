@@ -24,5 +24,5 @@ for cache in cache_dirs:
             except Exception as e:
                 pass
             except PermissionError as p:
-                print(p)
+                pass
 
